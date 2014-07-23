@@ -39,10 +39,18 @@
     right: -25px;
 }
 
-.buttons {
-    padding-bottom: 7px; 
+.buttons { 
     text-align: center;
-    height: 50px;
+    height: 30px;
     border-style: ridge;
     border-radius: 10px;
+    font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
+    
+}
+
+#mainBody {
+    position: absolute;
+    top: 135px;
+    left: 210px;
+    right: 20px;
 }
