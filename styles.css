@@ -1,26 +1,48 @@
-.banner{
+#banner{
     font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
     font-style: italic;
+    color: #474747;
     font-weight: 200;
-    background-color: "#AAD4AA";
-    position:fixed;
+    background: -webkit-linear-gradient(top, #1975FF , #FFFFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #1975FF, #FFFFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #1975FF, #FFFFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #1975FF , #FFFFFF); /* Standard syntax */ 
     width: 100%;
-    height: 95px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
     
 }
 
 #subtitle {
     position: relative;
     top: -25px;
-    left: 25px;
+    left: 50px;
 }
 
 
 
 .sidebar {
-    position: relative;
+    position: absolute;
     left: 0px;
-    top: 100px;
+    top: 135px;
     width: 200px;
     height: 525px;
+    
+}
+
+
+#BannerTitle {
+    position: relative;
+    right: -25px;
+}
+
+.buttons {
+    padding-bottom: 7px; 
+    text-align: center;
+    height: 50px;
+    border-style: ridge;
+    border-radius: 10px;
 }
