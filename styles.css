@@ -73,3 +73,7 @@ a{
     font-family: font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
     
 }
+
+p{
+    text-indent: 50px;
+}
