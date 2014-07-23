@@ -24,18 +24,6 @@
     left: 50px;
 }
 
-
-
-.sidebar {
-    position: absolute;
-    left: 0px;
-    top: 135px;
-    width: 200px;
-    height: 525px;
-    
-}
-
-
 #BannerTitle {
     position: relative;
     right: -25px;
@@ -73,7 +61,7 @@ a{
     color: #003366;
 }
 
-.sidebar2 {
+.sidebar {
     position: absolute;
     border-radius: 20px;
     left: 0px;
