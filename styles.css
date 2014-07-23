@@ -1,12 +1,14 @@
+/* Colors that are used are #336699, #FFCC66, #FFFFFF, and #003366 */
+
 #banner{
     font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
     font-style: italic;
-    color: #474747;
+    color: #003366;
     font-weight: 200;
-    background: -webkit-linear-gradient(top, #1975FF , #FFFFFF); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom, #1975FF, #FFFFFF); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom, #1975FF, #FFFFFF); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, #1975FF , #FFFFFF); /* Standard syntax */ 
+    background: -webkit-linear-gradient(top, #336699 , #FFFFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #336699, #FFFFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #336699, #FFFFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #336699 , #FFFFFF); /* Standard syntax */ 
     width: 100%;
     height: 120px;
     position: absolute;
@@ -42,9 +44,13 @@
 .buttons { 
     text-align: center;
     height: 30px;
-    border-style: ridge;
+    border-style: solid;
+    border-width: 1px;
     border-radius: 10px;
+    border-color: #003366;
     font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
+    background-color: #FFCC66;
+    
     
 }
 
@@ -53,4 +59,16 @@
     top: 135px;
     left: 210px;
     right: 20px;
+    font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
+    color: #003366;
+}
+
+a{
+    color: #003366;
+    text-decoration: none;
+}
+#footer {
+    position: absolute;
+    bottom: 1px;
+    color: #003366;
 }
