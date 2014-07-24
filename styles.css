@@ -77,3 +77,7 @@ a{
 p{
     text-indent: 50px;
 }
+
+.projectNames {
+    text-indent: 25px
+}
