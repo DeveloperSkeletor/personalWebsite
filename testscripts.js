@@ -1,14 +1,10 @@
-function getDate() {
-    "use strict";
-    document.getElementById("date").innerHTML = Date();
-}
-
+//a cleaned up version of the date the provides the day, month, and year. Ex: Tuesday July 29th, 2014
 function grabDate() {
     "use strict";
-    var day = "day of the week";
+    var day;
     var month;
-    var year = new Date().getFullYear;
-    var numDay;
+    var year = new Date().getFullYear();
+    var numDay = new Date().getDate();
     
     switch (new Date().getDay()) {
         case 0:
@@ -72,7 +68,17 @@ function grabDate() {
             month = "December";
             break;
     }
-        
-    document.getElementById("date").innerHTML = day + month + year;
+    
+     if (numDay == 1 || numDay == 21 || numDay == 31){
+        numDay = numDay + "st";
+     }else if (numDay == 2 || numDay == 22){
+         numDay = numDay + "nd";
+     }else if (numDay == 3 || numDay == 23){
+         numDay = numDay + "rd";
+     }else{
+         numDay = numDay + "th";
+     }
+    
+    document.getElementById("date").innerHTML = day + " " + month + " " + numDay + ", " + year;
     
 }
