@@ -1,6 +1,7 @@
+"use strict";
 //a cleaned up version of the date the provides the day, month, and year. Ex: Tuesday July 29th, 2014
 function grabDate() {
-    "use strict";
+    
     var day;
     var month;
     var year = new Date().getFullYear();
