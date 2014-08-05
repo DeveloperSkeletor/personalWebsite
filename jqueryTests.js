@@ -1,6 +1,9 @@
-$( document ).ready(function() {
-        $( "a" ).click(function( event ) {
-            alert( "The link will no longer take you to jquery.com" );
-            event.preventDefault();
-        });
+$(document).ready(function() {
+    
+    var $hide = $('.hiding');
+    $hide.hide(10000);
+    
+    $hide.mouseover(function(){
+        $hide.show();
     });
+});
