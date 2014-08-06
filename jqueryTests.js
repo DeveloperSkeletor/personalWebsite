@@ -1,15 +1,16 @@
 $(document).ready(function() {
-    
-    var $hide = $('.hiding');
-    
-    $hide.click(function(){
-    $hide.hide(10000);
+        
+    $('.hiding').click(function(){
+        $('.hiding').hide(2000);
+        $('#unhide').show(2000);
     });
     
-    $hide.click(function(){
-        $hide.show();
-    });
     
+    $("#show").click(function() {
+    
+        $(".hiding").show(2000);
+    
+    });
     
     $(".banner").click(function() {
        
