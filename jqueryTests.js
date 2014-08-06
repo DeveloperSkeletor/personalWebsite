@@ -5,12 +5,13 @@ $(document).ready(function() {
         $('#unhide').show(2000);
     });
     
-    
     $("#show").click(function() {
     
         $(".hiding").show(2000);
     
     });
+    
+    
     
     $(".banner").click(function() {
        
