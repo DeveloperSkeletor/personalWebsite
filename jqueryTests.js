@@ -13,13 +13,15 @@ $(document).ready(function() {
     
     $(".banner").click(function() {
        
-        $(this).toggleClass("bannerTwo").toggleClass("banner");
-       /* $(this).css("background", "linear-gradient(to bottom, #990000, #FFFFFF)")
-        $(this).css("background", "-moz-linear-gradient(to bottom, #990000, #FFFFFF)")
-        $(this).css("background", "-o-linear-gradient(to bottom, #990000, #FFFFFF)")
-        $(this).css("background", "-webkit-linear-gradient(to bottom, #990000, #FFFFFF)");
-        $(".sidebar").css("background-color", "#CCCC99");
-            */
+        $(this).toggleClass("bannerTwo");
+        $(".sidebar").toggleClass("sidebarTwo");
+        
+    });
+    
+    $(".bannerTwo").click(function() {
+    
+        $(this).toggleClass("banner");
+        $(".sidebarTwo").toggleClass("sidebar");
         
     });
 
